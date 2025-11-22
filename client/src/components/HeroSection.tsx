@@ -18,7 +18,7 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-5 gap-12 items-center">
           <div className="md:col-span-2 flex justify-center">
             <img 
-              src="/attached_assets/Dise%C3%B1o%20sin%20t%C3%ADtulo_1763801499423.jpg" 
+              src="/public/img.jpg" 
               alt="Oscar Rivero" 
               className="w-full max-w-sm shadow-xl rounded-lg"
             />
