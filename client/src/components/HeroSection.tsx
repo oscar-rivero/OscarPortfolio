@@ -17,11 +17,11 @@ export default function HeroSection() {
       <div className="max-w-6xl w-full">
         <div className="grid md:grid-cols-5 gap-12 items-center">
           <div className="md:col-span-2 flex justify-center">
-            <img 
+            {/* <img 
               src="/public/img.jpg" 
               alt="Oscar Rivero" 
               className="w-full max-w-sm shadow-xl rounded-lg"
-            />
+            /> */}
           </div>
           <div className="md:col-span-3 space-y-6">
             <div className="space-y-2">
