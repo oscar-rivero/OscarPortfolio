@@ -1,6 +1,5 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Mail } from 'lucide-react';
 
 export default function HeroSection() {
@@ -18,10 +17,11 @@ export default function HeroSection() {
       <div className="max-w-6xl w-full">
         <div className="grid md:grid-cols-5 gap-12 items-center">
           <div className="md:col-span-2 flex justify-center">
-            <Avatar className="w-64 h-64 border-4 border-primary/20 shadow-xl">
-              <AvatarImage src="/attached_assets/Diseño sin título_1763800381743.jpg" alt="Oscar Rivero" />
-              <AvatarFallback className="text-4xl">OR</AvatarFallback>
-            </Avatar>
+            <img 
+              src="/attached_assets/Diseño sin título_1763801499423.jpg" 
+              alt="Oscar Rivero" 
+              className="w-full max-w-sm shadow-xl rounded-lg"
+            />
           </div>
           <div className="md:col-span-3 space-y-6">
             <div className="space-y-2">
