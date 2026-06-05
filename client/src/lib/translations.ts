@@ -117,6 +117,12 @@ export const translations: Record<Language, Translations> = {
           period: '2016',
           description: 'Developed and maintained virtualization systems with multiple virtual machines. Created website with WordPress, HTML, CSS, and JavaScript.',
         },
+       /* {
+          role: 'Testing',
+          company: 'Testing',
+          period: 'X-Y',
+          description: 'test'
+        }*/
       ],
     },
     education: {
@@ -170,7 +176,7 @@ export const translations: Record<Language, Translations> = {
     },
     contact: {
       title: 'Contact',
-      email: 'orivero95@outlook.com',
+      email: 'info@oscararivero.com',
       phone: '+34 605342745',
       location: 'Sabadell, Barcelona, Spain',
     },
